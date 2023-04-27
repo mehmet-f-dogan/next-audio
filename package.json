@@ -1,0 +1,27 @@
+{
+  "name": "next-audio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "algoliasearch": "^4.17.0",
+    "next": "13.3.0",
+    "next-auth": "^4.22.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-toastify": "^9.1.2",
+    "sass": "^1.62.0",
+    "simpler-state": "^1.2.0",
+    "swiper": "^9.2.3",
+    "use-debounce": "^9.0.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7"
+  }
+}

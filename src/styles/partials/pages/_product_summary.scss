@@ -1,0 +1,30 @@
+.prod_summary_details {
+  margin-top: 4rem;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.prod_specs {
+  ul {
+    grid-template-columns: 1fr;
+
+    li {
+      @include flexbox(center, center);
+      gap: 1rem;
+
+      span {
+        &:last-child {
+          font-weight: 600;
+        }
+      }
+    }
+
+    @include devices(lg) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
