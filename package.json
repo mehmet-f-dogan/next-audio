@@ -2,6 +2,7 @@
   "name": "next-audio",
   "version": "1.0.0",
   "private": true,
+  "author": "Mehmet F. Dogan",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

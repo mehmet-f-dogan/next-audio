@@ -2,6 +2,13 @@
 
 NextAudio is a modern ecommerce website that uses Next.js, Sass, and Algolia. With its simple and responsive design, customers can easily browse, search and order earphones and headphones with just a few clicks.
 
+## Screenshots
+
+![Index](./screenshots/index.jpg?raw=true "Index")
+![Search](./screenshots/search.jpg?raw=true "Search")
+![Cart](./screenshots/cart.jpg?raw=true "Cart")
+![Auth](./screenshots/auth.jpg?raw=true "Authentication")
+
 ## Features 🚀
 
 * Next.js for server-side rendering and optimized performance
