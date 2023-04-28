@@ -45,6 +45,6 @@ Here are some of the main dependencies used in NextAudio:
 
 ## Version History 📈
 
-The current version of this project is 1.0.0. Check [package.json](https://github.com/mehmetfd/portfolio-next-audio/blob/main/package.json) for details.
+The current version of this project is 1.0.0. Check [package.json](https://github.com/mehmet-f-dogan/next-audio/blob/master/package.json) for details.
 
 Enjoy shopping with NextAudio! 🎵🎶
