@@ -9,7 +9,6 @@ import RelatedSlider from "@/components/sliders/RelatedSlider";
 import ProductSummary from "@/components/product/ProductSummary";
 
 const ProductDetails = (props) => {
-
   const { handleActive, activeClass } = useActive(0);
 
   const product = props.product;

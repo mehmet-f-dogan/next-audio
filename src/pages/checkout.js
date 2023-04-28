@@ -3,7 +3,6 @@ import EmptyView from "@/components/common/EmptyView";
 import { GiConfirmed } from "react-icons/gi";
 import { completeOrder } from "@/states/CartState";
 
-
 const CheckoutPage = () => {
   completeOrder();
   return (

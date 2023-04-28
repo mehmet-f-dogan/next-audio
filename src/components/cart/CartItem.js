@@ -5,7 +5,6 @@ import { displayMoney } from "@/helpers/utils";
 import QuantityBox from "@/components/common/QuantityBox";
 import { removeItem } from "@/states/CartState";
 
-
 const CartItem = (props) => {
   const { id, images, title, info, price, quantity } = props;
 

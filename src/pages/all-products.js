@@ -8,7 +8,6 @@ import { useDebounce } from "use-debounce";
 import { searchProducts } from "@/helpers/api";
 
 const AllProducts = () => {
-
   const [allProducts, setAllProducts] = useState([]);
 
   const [filter] = useDebounce(filtersState.use(), 700);

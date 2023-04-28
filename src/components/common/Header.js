@@ -23,7 +23,6 @@ const Header = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [cartQuantity, setCartQuantity] = useState(0);
 
-
   // handle the sticky-header
   useEffect(() => {
     const handleIsSticky = () =>
@@ -35,7 +34,6 @@ const Header = () => {
       window.removeEventListener("scroll", handleIsSticky);
     };
   }, [isSticky]);
-
 
   useEffect(() => {
     setCartQuantity(cartItems.length);

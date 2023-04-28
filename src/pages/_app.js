@@ -3,6 +3,7 @@ import Header from "@/components/common/Header";
 import Footer from "@/components/common/Footer";
 import BackTop from "@/components/common/BackTop";
 import { ToastContainer } from "react-toastify";
+import { Analytics } from "@vercel/analytics/react";
 
 import "swiper/scss";
 import "swiper/scss/autoplay";
@@ -18,13 +19,13 @@ export default function App({
 }) {
   return (
     <>
+      <Analytics />
       <SessionProvider session={session}>
         <ToastContainer />
         <Header />
         <Head>
           <title>NextAudio | The Perfect Audio Store</title>
           <meta
-
             name="description"
             content="NextAudio is a NextJS based eCommerce template for selling audio products."
           />
@@ -32,7 +33,6 @@ export default function App({
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <meta name="language" content="English" />
           <meta name="author" content="Mehmet F. Dogan" />
-
         </Head>
         <div className="main-container">
           <div className="main-content">

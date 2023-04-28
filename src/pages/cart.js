@@ -7,9 +7,7 @@ import { getProduct } from "@/helpers/api";
 import { cartState } from "@/states/CartState";
 import { useRouter } from "next/router";
 
-
 const Cart = () => {
-
   const cartItems = cartState.use();
 
   const [itemDetails, setItemDetails] = useState([]);
@@ -70,11 +68,13 @@ const Cart = () => {
                       </b>
                     </div>
                   </div>
-                  <button type="button" className="btn checkout_btn" onClick={
-                    () => {
+                  <button
+                    type="button"
+                    className="btn checkout_btn"
+                    onClick={() => {
                       router.push("/checkout");
-                    }
-                  }>
+                    }}
+                  >
                     Checkout
                   </button>
                 </div>

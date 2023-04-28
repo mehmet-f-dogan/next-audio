@@ -44,5 +44,5 @@ export async function checkout(items) {
       },
       body: JSON.stringify(items),
     });
-  } catch (ignored) { }
+  } catch (ignored) {}
 }
