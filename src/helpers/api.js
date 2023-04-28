@@ -1,7 +1,6 @@
 const api_url = process.env.NEXT_PUBLIC_API_URL;
 
 export async function searchProducts(params) {
-  console.log(params);
   try {
     const response = await fetch(`${api_url}/product/search`, {
       method: "post",
@@ -14,7 +13,6 @@ export async function searchProducts(params) {
     });
     return await response.json();
   } catch (ignored) {
-    console.log(ignored);
     return [];
   }
 }
@@ -44,5 +42,5 @@ export async function checkout(items) {
       },
       body: JSON.stringify(items),
     });
-  } catch (ignored) {}
+  } catch (ignored) { }
 }
